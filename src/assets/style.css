@@ -57,6 +57,10 @@ input {
   margin-top: 50px;
 }
 
+#create:hover {
+  opacity: 0.8;
+}
+
 #btn-display {
   margin-top: 250px;
   text-decoration: none;
@@ -69,11 +73,21 @@ input {
   padding: 20px;
 }
 
+#btn-display:hover {
+  opacity: 0.8;
+}
+
 #div-ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 #add-link {
