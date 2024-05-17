@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Evaluation node.js 3W 17/05/2024</title>
+  </head>
+  <body>
+    <h1>Ajouter un étudiant</h1>
+    <div id="wrapper">
+      <form action="/add-student" method="POST">
+        <div class="input-div">
+          <label for="name">Nom : </label>
+          <input id="name" type="text" name="name" />
+        </div>
+        <div class="input-div">
+          <label for="date">Date de naissance : </label>
+          <input type="date" id="date" name="birth" />
+        </div>
+        <button id="create" type="submit">Créer l'étudiant</button>
+      </form>
+      <a id="btn-display" href="/users">Voir tout les étudiants</a>
+    </div>
+  </body>
+</html>
